@@ -5,15 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav-style.css" type="text/css">
+    <link rel="stylesheet" href="section-style.css">
+    <link rel="stylesheet" href="header-style.css">
+    <link rel="stylesheet" href="Footer-style.css">
     <title>Document</title> 
     
 </head>
-<body>
-    <header>
-        MY NAME
-    </header>
+<body> 
+    <!--header-->
+    <div class="header">
+        <div class="_inner_header">
+            <div class="logo_container">
+                   <h1> MY <SPan>NAME</SPan></h1>
+            </div>
+        </div>
+        
+    </div>
+    <!--End header-->
 
     <nav>
         <ul class="nav_links">
@@ -28,21 +37,66 @@
 
     <section>
         <p>
-            My name is MY NAME,am a computer engineer currently pursuing bachelor degree in computer <br> 
-            engineering and information technology at university of Dar es saalam 
+           
+            <b>
+                Hello! i'm <br>  MY Name A ENGINEER. I DESIGN THINGS.
+            </b><br>
+            Currently pursuing bachelor degree in computer
+            engineering and information technology at university of Dar es Saalam
+           
         </p>
-        <p>
-            my skill sets are developing softwares, mobile applications and also interested in AI
+        <p class="skills">
+            
+                <b>My skill sets are</b>
+            <ul class="list">
+                <li>Development</li>
+                <li>AI</li>
+                <li>Mobile application development</li>
+                <li> Cybersecurity</li>
+            </ul>
+            
         </p>
     </section>
 
-    <footer>
-        <h4>Having any questions?</h4>
-        <ul>
-            <li><strong>My location</strong><br>Majengo Ave, Arusha, Tanzania</li>
-            <li><strong>Phone</strong><br>+255 758 893 165</li>
-            <li><strong>Email</strong><br>malisafrank02@gmail.com</li>
-        </ul>
-    </footer>
+
+        <footer>
+            <section id="contact">
+                <div class="contact container">
+                    <div class="section-title"><h4>Having any questions? Contact <span>Info</span></h4></div>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/color/2x/apple-phone.png"/></div>
+                            <div class="contact-info">
+                                <h4>Phone</h4>
+                                <h5>+255 758 893 165</h5>
+                                <h5> +255 626 874 607</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/color/2x/apple-mail.png"/></div>
+                            <div class="contact-info">
+                                <h4>Email</h4>
+                                <h5>fmalisah02@gmail.com</h5>
+                                <h5>malisafrank02@gmail.com</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="icon"><img src="https://img.icons8.com/ios-filled/2x/address.png"/></div>
+                            <div class="contact-info">
+                                <h4>Address</h4>
+                                <h5>Majengo Ave, Arusha, Tanzania</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
 </body>
 </html>

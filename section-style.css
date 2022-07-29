@@ -1,0 +1,25 @@
+p{
+    color: black;
+    background-color: bisque;
+    font-size: large;
+    text-align: center;
+}
+
+.skills{
+    text-align: center;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+
+
+.list{
+    text-align: center;
+    margin: 10px;
+    padding: 0 10px 0 25px;
+    background-color: lightgray;
+    font-style: italic;
+    list-style-type: lower-greek;
+    list-style-position: inside;
+}
+
