@@ -1,0 +1,30 @@
+#contact .contact{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contact-items{
+    width: 450px;
+}
+
+#contact .contact-item{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+}
+
+#contact .icon{
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#contact .contact-info-h4 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
