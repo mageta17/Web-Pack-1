@@ -5,7 +5,7 @@ body {
 footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: rgba(82, 143, 233, 0.8);
     min-height: 100px;
     padding: 20px 50px;
     justify-content: center;
