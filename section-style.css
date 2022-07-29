@@ -19,5 +19,7 @@ p{
     padding: 0 10px 0 25px;
     background-color: lightgray;
     font-style: italic;
+    list-style-type: lower-greek;
+    list-style-position: inside;
 }
 
