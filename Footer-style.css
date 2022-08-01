@@ -1,11 +1,12 @@
 body {
     min-height: 100vh;
-    background: #8fbc8f
+    background: #8fbc8f;
+    background-image: linear-gradient(180deg,aqua,green 80%,#3586ff 20%);
 }
 footer {
     position: relative;
     width: 100%;
-    background: rgba(82, 143, 233, 0.8);
+    background: #3586ff;
     min-height: 100px;
     padding: 20px 50px;
     justify-content: center;
