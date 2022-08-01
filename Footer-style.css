@@ -2,6 +2,7 @@ body
 {
     min-height: 100vh;
     background: #8fbc8f;
+    background-image: linear-gradient(180deg,aqua,green 80%,#3586ff 20%);
 }
 
 footer {
