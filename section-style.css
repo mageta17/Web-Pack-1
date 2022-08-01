@@ -46,6 +46,11 @@ p{
 }
 */
 
+section{
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper{
     background: linear-gradient(90deg, #7f00ff,#e100ff );
     height: 100vh;
@@ -79,7 +84,7 @@ p{
     opacity: 0;
 }
 
-.modal: target {
+.modal:target{
     visibility: visible;
     opacity: 1;
 }
