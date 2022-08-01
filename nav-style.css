@@ -56,3 +56,6 @@ button:hover{
     padding: 0 20px 0 0;
     order:1;
 }
+.nav_links li a:visited{
+    color:maroon;
+}
