@@ -1,10 +1,15 @@
+section{
+    margin: 0;
+    padding: 0;
+}
+
 p{
     color: black;
     font-size: large;
     text-align: center;
 }
 
-.skills{
+/*.skills{
     position: relative;  top: 0;
     left:10%;
     width: 0;
@@ -16,7 +21,7 @@ p{
     border-right: 2px solid greenyellow;
     overflow: hidden;
     animation: animate 7s linear infinite;
-}
+}*/
 /*.list{
     text-align: center;
     margin: 10px;
@@ -24,8 +29,8 @@ p{
     font-style: italic;
     list-style-type: lower-greek;
     list-style-position: inside;
-}*/
-/*@keyframes animate{
+}
+@keyframes animate{
     0%,90%,100%{
         width: 0;
     }
@@ -45,11 +50,6 @@ p{
     overflow: hidden;
 }
 */
-
-section{
-    margin: 0;
-    padding: 0;
-}
 
 .wrapper{
     background: linear-gradient(90deg, #7f00ff,#e100ff );
@@ -71,6 +71,7 @@ section{
 
 .modal{
     position: absolute;
+    text-transform: uppercase;
     top: 0;
     bottom: 0;
     right: 0;
