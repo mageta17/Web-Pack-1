@@ -53,7 +53,7 @@ p{
 
 .wrapper{
     background: linear-gradient(90deg, #7f00ff,#e100ff );
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
