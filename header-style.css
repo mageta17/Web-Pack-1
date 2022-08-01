@@ -28,16 +28,57 @@
 }
 
 .logo_container h1{
-    color:yellow;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Montserrat';
-    font-size: 30px;
-    font-weight: 200;
+   display: block;
+   width: fit-content;
+   position: relative;
+   color: transparent;
+   animation: text_reveal .5s ease forwards;
+   animation-delay: 1.5s;
+}
+
+.logo_container h1:nth-child(1){
+    animation-delay: 1.5s;
+}
+.logo_container h1:nth-child(2){
+    animation-delay: 2.5s;
 }
 
 .logo_container h1 span{
-    font-weight:bold;
-    color:red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: blue;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+    
 }
+
+.logo_container h1:nth-child(1) span{
+    animation-delay: 1s;
+}
+
+.logo_container h1:nth-child(2) span{
+    animation-delay: 2s;
+}
+
+
+
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;}
+        100%{
+            width: 0;
+            left:100%;
+        }
+    }
+
+
+    @keyframes text_reveal{
+        100%{
+            color: red;
+        }
+    }
