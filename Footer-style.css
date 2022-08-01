@@ -55,10 +55,37 @@ footer p {
 
 footer .wave 
 {
-    top: 0;
+    top: -100px;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 100px;
     background: #f00 url(wave.png);
+    background-size: 1000px 100px;
+}
 
+footer .wave#wave1
+{
+    z-index: 1000px;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2
+{
+    z-index: 999px;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+@keyframes animateWave 
+{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
 }
