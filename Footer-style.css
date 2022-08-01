@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(180deg,aqua,green 80%,#3586ff 20%);
 }
 footer {
+    margin-top: 11em;
     position: relative;
     width: 100%;
     background: #3586ff;
@@ -11,6 +12,7 @@ footer {
     padding: 20px 50px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 footer h3 {
